@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Password Generator</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+	<div class="title_container">
+		<h1>Password Generator</h1>
+		<h4>by Alan Aguilar</h4>
+	</div>
+
+	<div id="password_generator_container">
+
+		<div class="password_generator_logic_container_simple">
+			<span id="password">PASSWORD HERE</span>
+			<button id="copy_button">Copy</button>
+		</div>
+
+		<div>
+			<div class="password_generator_logic_container">
+				<label>Password Length</label>
+				<input type="number" min="0" max="10" value="6" id="password_length">
+			</div>
+			<div class="password_generator_logic_container">
+				<label>Contain Uppercase Letters</label>
+				<input type="checkbox" id="password_upper">
+			</div>
+			<div class="password_generator_logic_container">
+				<label>Contain Lowercase Letters</label>
+				<input type="checkbox" id="password_lower">
+			</div>
+			<div class="password_generator_logic_container">
+				<label>Contain Numbers</label>
+				<input type="checkbox" id="password_number">
+			</div>
+			<div class="password_generator_logic_container">
+				<label>Contain Symbols</label>
+				<input type="checkbox" id="password_symbol">
+			</div>
+		</div>
+
+		<button id="generate_button">Generate Password</button>
+
+	</div>
+
+	<script type="text/javascript" src="./Scripts/main.js"></script>
+	
+</body>
+</html>

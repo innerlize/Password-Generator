@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Sen', sans-serif;
+	border: none;
+	outline: none;
+}
+
+button {
+	background-color: #800080;
+	color: #F2F2F2;
+	font-size: 18px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background-color: #222222;
+}
+
+.title_container {
+	color: #F2F2F2;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 46px;
+}
+
+.title_container h1 {
+	font-size: 45px;
+	text-transform: uppercase;
+}
+
+.title_container h4 {
+	font-size: 21px;
+}
+
+#password_generator_container {
+	width: 360px;
+	height: 100%;
+	background-color: #F2F2F2;
+	text-align: center;
+	padding: 56px 32px;
+}
+
+#password_generator_container .password_generator_logic_container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 17px;
+	font-size: 14px;
+}
+
+#password_generator_container .password_generator_logic_container input[type="number"] {
+	outline: 1px solid #800080;
+	font-weight: 700;
+	padding: 2px 4px;
+	margin-right: 1px;
+}
+
+#password_generator_container .password_generator_logic_container_simple {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 47px;
+}
+
+#password_generator_container, #password_generator_container button {
+	text-transform: uppercase;
+}
+
+#password_generator_container #password {
+	display: inline-block;
+	border: 1px solid #222222;
+	border-right: none;
+	padding: 10px 9px;
+	width: 100%;
+	font-size: 18px;
+	text-align: left;
+	text-transform: none;
+}
+
+#password_generator_container #copy_button {
+	padding: 10px 25px;
+}
+
+#password_generator_container #generate_button {
+	display: inline-block;
+	width: 100%;
+	padding: 12px 25px;
+	margin-top: 28px;
+}
+
