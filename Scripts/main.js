@@ -80,5 +80,5 @@ copyButton.addEventListener('click', () => {
 	textarea.select();
 	document.execCommand('copy');
 	textarea.remove();
-	alert('Listo reina, a ver si me compartis la contraseña para acceder a tu corazon eh')
+	alert('Password Copied!')
 })
